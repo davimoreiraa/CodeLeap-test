@@ -14,7 +14,7 @@ import styles from './styles.module.css'
 
 export default function Home() {
   const [delete_box, setDeleteBox] = useState(false)
-  const [edit_box, setEditBox] = useState(true)
+  const [edit_box, setEditBox] = useState(false)
 
   function toggleDeleteContainer() {
     setDeleteBox(!delete_box)
