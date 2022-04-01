@@ -1,0 +1,51 @@
+.edit_container {
+  background-color: #fff;
+  padding: 24px 49px;
+}
+
+.disable_edit_container {
+  display: none;
+}
+
+.edit_message {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.edit_post_label {
+  font-weight: 700, bold;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.title_input {
+  margin-bottom: 19px;
+}
+
+.title_input,
+.content_input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  padding: 3px 10px;
+}
+
+.content_input {
+  resize: none;
+}
+
+.save_button_container {
+  margin-top: 30px;
+}
+
+.save_button {
+  text-transform: uppercase;
+  margin-right: 0;
+  padding: 3px 28px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-weight: bolder;
+}
