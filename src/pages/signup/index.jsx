@@ -16,7 +16,7 @@ export default function Signup() {
         <div className={`${styles.main_container}`} >
           <h1 className={`${styles.welcome_message} `} >Welcome to CodeLeap network!</h1>
           <form className={`${styles.form}`}>
-            <label for="name" className={`${styles.name_label} d-block`}>Please enter your username</label>
+            <label htmlFor="name" className={`${styles.name_label} d-block`}>Please enter your username</label>
             <input type="text" id='name' placeholder='John doe' className={`${styles.input_name} border border-secondary`} onKeyUp={(e) => {
               console.log(e.target.value)
               e.target.value === '' ? setFilledInput(false) : setFilledInput(true)
