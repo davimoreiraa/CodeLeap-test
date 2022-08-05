@@ -14,7 +14,7 @@ import styles from './styles.module.css'
 
 export default function Home() {
   const [delete_box, setDeleteBox] = useState(false)
-  const [edit_box, setEditBox] = useState(true)
+  const [edit_box, setEditBox] = useState(false)
 
   function toggleDeleteContainer() {
     setDeleteBox(!delete_box)
@@ -54,19 +54,19 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className={`${styles.feeds_container} border border-secondary`} >
-            <div className={`${styles.post_infos} d-flex justify-content-between align-items-center`} >
-              <p className={`${styles.creator_username}`} >@Vitor</p>
+          <div className={`${styles.feeds_container} border border-secondary`}>
+            <div className={`${styles.post_infos} d-flex justify-content-between align-items-center`}>
+              <p className={`${styles.creator_username}`}>@Vitor</p>
               <p>25 minutes ago</p>
             </div>
-            <div className={`${styles.post_content}`} >
+            <div className={`${styles.post_content}`}>
             Curabitur suscipit suscipit tellus. Phasellus consectetuer vestibulum elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas egestas arcu quis ligula mattis placerat. Duis vel nibh at velit scelerisque suscipit. <br />
             <br/>
             Duis lobortis massa imperdiet quam. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Fusce a quam. Nullam vel sem. Nullam cursus lacinia erat.
             </div>
           </div>
         </div>
-        <div className={`${styles.post_feed} col-11`} >
+        <div className={`${styles.post_feed} col-11`}>
           <div className={`${styles.header} d-flex justify-content-between align-items-center`} >
             <h3 className={`${styles.title} align-middle`}>Another Post Here</h3>
           </div>
