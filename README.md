@@ -6,7 +6,7 @@
 </div>
 <hr />
 <h2>Description</h2>
-<p style='font-size:17px'>This page was a test to get a job at <a href='https://codeleap.co.uk/'>CodeLeap</a>. So, I decided to let it as a repositorie because it was a expercience for me.</p>
+<p style='font-size:17px'>This page was a test to get a job at <a href='https://codeleap.co.uk/'>CodeLeap</a>. So, I decided to let it as a repository because it was a expercience for me.</p>
 <hr />
 <h2>Features</h2>
 <p style='font-size:17px'>After log in with your name, you can:</p>
